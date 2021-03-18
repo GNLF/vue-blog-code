@@ -2,9 +2,9 @@
 const path = require('path')
 module.exports = {
     title: '前端笔记',
-    description: 'GN_凉风',
+    description: '凉风',
     base: '/blog/',
-    dest: './dist',
+    dest: './pages',
     port: '9988',
     head: [
         ['link', {rel: 'icon', href: '/icon.png'}],
