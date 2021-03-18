@@ -26,4 +26,4 @@
 
 ## 页面访问地址
 
- [https://gnlf.gitee.io/blog](https://gnlf.gitee.io/blog)
+ [https://gnlf.github.io/blog/](https://gnlf.github.io/blog/)
