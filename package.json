@@ -14,7 +14,7 @@
     "@vuepress/plugin-back-to-top": "^1.4.0",
     "@vuepress/plugin-medium-zoom": "^1.4.0",
     "vuepress-plugin-container": "^2.1.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "jquery": "^3.4.1",
     "vue-click-outside": "1.0.7",
     "vuepress": "^1.5.0",
