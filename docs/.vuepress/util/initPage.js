@@ -7,7 +7,6 @@ const fileTypes = /\.md$/;
 const getSidebar = (rpath,collapsable = false) => {
     let sideArr = [];
     let fileArr = fs.readdirSync(rpath);
-    // let isHasFolder = fileArr.some(item => fs.statSync(rpath+"/"+item).isDirectory());
     fileArr.forEach(file => {
         if (excludes.indexOf(file) < 0 ) {
             const fullpath = rpath+"/"+file;
@@ -17,17 +16,7 @@ const getSidebar = (rpath,collapsable = false) => {
             const fileinfo = fs.statSync(fullpath);
             if(fileinfo.isFile()){
                 if(fileTypes.test(file) > 0) {
-                    // if(isHasFolder) {
-                    //     sideArr.push({
-                    //         title,
-                    //         collapsable,
-                    //         children: [
-                    //             filepath
-                    //         ]
-                    //     })
-                    // } else {
-                        sideArr.push(filepath)
-                    // }
+                    sideArr.push(filepath)
                 }
             } else {
                 const children = getSidebar(fullpath,true);

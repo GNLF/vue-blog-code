@@ -2,44 +2,6 @@
 
 [[toc]]
 
-<style>
-  h4[id*="例"]{
-      margin-top: 0 !important;
-      padding: 25.6px !important;
-      padding-bottom: 25.6px !important;
-      background-color: #FFF5EE;
-      background-clip: padding-box;
-      border-top-left-radius: 5px;
-      border-top-right-radius: 5px;
-  }
-  h4[id*="例"]+div[class^="language"] {
-    margin: 25.6px 25.6px 52px 25.6px !important;
-    z-index:1;
-  }
-  div[class*="language-"] pre, div[class*="language-"] pre[class*="language-"] {
-    background: #333333;
-  }
-  h4[id*="例"]+div[class^="language"]::after{
-      content: '';
-      position: absolute;
-      top: -25.6px;
-      left: -25.6px;
-      z-index: 0;
-      width: calc(100% + 51px);
-      height: calc(100% + 51.2px);
-      background-color: #FFF5EE;
-      border-right-width:0;
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-  }
-  h4[id^="好例"]{
-     background-color: #F0FFF0;
-  }
-  h4[id*="好例"]+div[class^="language"]::after{
-     background-color: #F0FFF0;
-  }
-</style>
-
 这里是官方的 Vue 特有代码的风格指南。如果在工程中使用 Vue，为了回避错误、小纠结和反模式，该指南是份不错的参考。不过我们也不确信风格指南的所有内容对于所有的团队或工程都是理想的。所以根据过去的经验、周围的技术栈、个人价值观做出有意义的偏差是可取的。
 
 对于其绝大部分，我们也总体上避免就 JavaScript 或 HTML 的本身提出建议。我们不介意你是否使用分号或结尾的逗号。我们不介意你在 HTML attribute 中使用单引号还是双引号。不过当我们发现在 Vue 的情景下有帮助的特定模式时，也会存在例外。

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: '/lufei2.png'
+heroImage: '/avatar.png'
 actionText: 开始学习
 actionLink: /catalogue/
 meta:
@@ -14,4 +14,9 @@ features:
 - title: 后端知识点
   details: 包括PHP，以及ThinkPHP
 footer: GN_凉风 | Copyright © 2020
+
+comment: false   
+                              
 ---
+<!-- 漂浮点线 -->
+<!-- <CanvasNest color='0,23,255' zIndex='0'></CanvasNest> -->
